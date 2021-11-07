@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9bc9274-96ce-4155-8232-64157045bfa3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/model/Values.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/model/Values.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/page/GoogleTranslatePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/page/GoogleTranslatePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ui.test.GoogleTranslateTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ui.test.GoogleTranslateTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ui.test.GoogleTranslateTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ui.test.GoogleTranslateTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/geckodriver" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/geckodriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/page/GoogleTranslatePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/page/GoogleTranslatePage.class" afterDir="false" />
-    </list>
+    <list default="true" id="b9bc9274-96ce-4155-8232-64157045bfa3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636315779108</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="screen Key Board">
+      <created>1636317769670</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636317769670</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
