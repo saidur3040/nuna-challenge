@@ -15,7 +15,7 @@ public class GoogleTranslatePage extends PageHelper {
     private By translatedLanguageField = By.xpath("/html/body/c-wiz/div/div[2]/c-wiz/div[2]/c-wiz/div[1]/div[2]/div[2]/c-wiz[2]/div[1]");
     private By swapLanguageField = By.xpath("//*[@id=\"ow23\"]/div/span/button");
     private By clearTextInput = By.xpath("//*[@id=\"ow42\"]/div[1]/span/button/div[2]");
-    private By enterNewText = By.xpath("//*[@id=\"ow61\"]/div/span/div/div/span/div/a[1]/span");
+    private By clickOnKeyBoardField = By.xpath("/html/body/c-wiz/div/div[2]/c-wiz/div[2]/c-wiz/div[1]/div[2]/div[2]/c-wiz[1]/div[4]/div[3]/c-wiz/span/div/div/span/div/div/span/div/a[1]");
 
 
     public GoogleTranslatePage(WebDriver driver) {
@@ -55,7 +55,7 @@ public class GoogleTranslatePage extends PageHelper {
     }
 
     public void screenKeyBoard() {
-        setField(enterNewText, "hi");
+        clickOnElement(clickOnKeyBoardField);
     }
 
 

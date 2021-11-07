@@ -1,7 +1,0 @@
-ui/test/GoogleTranslateTest.class
-ui/helper/Constants.class
-ui/helper/PageHelper.class
-ui/page/GoogleTranslatePage.class
-ui/helper/TestHelper.class
-sanity/SanityTest.class
-ui/model/Values.class
