@@ -13,31 +13,50 @@ public class GoogleTranslatePage extends PageHelper {
     private By translateLanguageTo = By.xpath("//*[@id=\"yDmH0d\"]/c-wiz/div/div[2]/c-wiz/div[2]/c-wiz/div[3]/c-wiz/div[2]/div/div[3]/div/div[2]/div[90]/div[2]");
     private By textAreaField = By.xpath("//*[@id=\"yDmH0d\"]/c-wiz/div/div[2]/c-wiz/div[2]/c-wiz/div[1]/div[2]/div[2]/c-wiz[1]/span/span/div/textarea");
     private By translatedLanguageField = By.xpath("/html/body/c-wiz/div/div[2]/c-wiz/div[2]/c-wiz/div[1]/div[2]/div[2]/c-wiz[2]/div[1]");
+    private By swapLanguageField = By.xpath("//*[@id=\"ow23\"]/div/span/button");
+    private By clearTextInput = By.xpath("//*[@id=\"ow42\"]/div[1]/span/button/div[2]");
+    private By enterNewText = By.xpath("//*[@id=\"ow61\"]/div/span/div/div/span/div/a[1]/span");
+
 
     public GoogleTranslatePage(WebDriver driver) {
         super(driver);
     }
 
 
-    public void detectLanguage(){
+    public void detectLanguage() {
         clickOnElement(detectLanguageField);
         clickOnElement(selectLanguageFrom);
 
     }
 
-    public void translateTo(){
+    public void translateTo() {
         clickOnElement(translateLanguageButton);
         clickOnElement(translateLanguageTo);
     }
 
-    public void initialText(Values value){
+    public void initialText(Values value) {
+
         setField(textAreaField, value.getText());
     }
 
-public void translatedLanguage(){
-        getText(translatedLanguageField);
-}
+    public void translatedLanguage() {
 
+        getText(translatedLanguageField);
+    }
+
+    public void swapLanguage() {
+        clickOnElement(swapLanguageField);
+
+    }
+
+    public void clearTheInput() {
+        clickOnElement(clearTextInput);
+
+    }
+
+    public void screenKeyBoard() {
+        setField(enterNewText, "hi");
+    }
 
 
 }

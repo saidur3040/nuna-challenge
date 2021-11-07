@@ -18,11 +18,12 @@ public class TestHelper {
         System.setProperty("webdriver.chrome.driver","src/test/resources/chromedriver");
         driver = new ChromeDriver();
         driver.get("https://translate.google.com/");
+        driver.manage().window().maximize();
     }
 
     @AfterClass
     public static void teardownDriver() {
-        driver.quit();
+        //driver.quit();
     }
 
     public void assertTrue(String message, boolean actual) {

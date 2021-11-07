@@ -28,14 +28,30 @@ public class GoogleTranslateTest extends TestHelper {
         googleTranslatePage.translateTo();
 
     }
+
     @Test
-    public void initialTextTest(){
+    public void initialTextTest() {
         values.setText(values.getText());
         googleTranslatePage.initialText(values);
     }
+
     @Test
-    public void translatedLanguageTest(){
+    public void translatedLanguageTest() {
         googleTranslatePage.translatedLanguage();
+    }
+
+    @Test
+    public void swapLanguageTest() {
+        googleTranslatePage.swapLanguage();
+    }
+
+    @Test
+    public void clearTheInputTest() {
+        googleTranslatePage.clearTheInput();
+    }
+    @Test
+    public void screenKeyBoardTest() {
+        googleTranslatePage.screenKeyBoard();
     }
 
 }
