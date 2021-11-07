@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9bc9274-96ce-4155-8232-64157045bfa3" name="Changes" comment="" />
+    <list default="true" id="b9bc9274-96ce-4155-8232-64157045bfa3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ui.test.GoogleTranslateTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/ui.test.GoogleTranslateTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sanity/SanityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sanity/SanityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/helper/TestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/helper/TestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/model/Values.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/model/Values.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/page/GoogleTranslatePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/page/GoogleTranslatePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/test/GoogleTranslateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/test/GoogleTranslateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/util/DbUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/geckodriver" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/geckodriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/helper/TestHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/helper/TestHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/model/Values.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/model/Values.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/page/GoogleTranslatePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/page/GoogleTranslatePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/test/GoogleTranslateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/test/GoogleTranslateTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +43,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="20TghuhqMcBHm5QfWwhW5UHDgID" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,6 +59,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -42,8 +70,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.GoogleTranslateTest">
+  <component name="RunManager" selected="JUnit.GoogleTranslateTest.translatedLanguageTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -52,23 +83,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountMenuTest.submitAccountMenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="nuna-challenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ui.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ui.test" />
-      <option name="MAIN_CLASS_NAME" value="ui.test.AccountMenuTest" />
-      <option name="METHOD_NAME" value="submitAccountMenuTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,7 +137,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleTranslateTest.translateLanguageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GoogleTranslateTest.translateToTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="nuna-challenge" />
       <extension name="coverage">
         <pattern>
@@ -133,7 +147,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="ui.test" />
       <option name="MAIN_CLASS_NAME" value="ui.test.GoogleTranslateTest" />
-      <option name="METHOD_NAME" value="translateLanguageTest" />
+      <option name="METHOD_NAME" value="translateToTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleTranslateTest.translatedLanguageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nuna-challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui.test" />
+      <option name="MAIN_CLASS_NAME" value="ui.test.GoogleTranslateTest" />
+      <option name="METHOD_NAME" value="translatedLanguageTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -167,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GoogleTranslateTest.translatedLanguageTest" />
         <item itemvalue="JUnit.GoogleTranslateTest" />
-        <item itemvalue="JUnit.GoogleTranslateTest.translateLanguageTest" />
         <item itemvalue="JUnit.GoogleTranslateTest.detectLanguageTest" />
+        <item itemvalue="JUnit.GoogleTranslateTest.translateToTest" />
         <item itemvalue="JUnit.GoogleTranslateTest.selectLanguageTest" />
-        <item itemvalue="JUnit.AccountMenuTest.submitAccountMenuTest" />
       </list>
     </recent_temporary>
   </component>

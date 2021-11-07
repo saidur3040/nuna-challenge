@@ -15,15 +15,13 @@ public class TestHelper {
 
     @BeforeClass
     public static void startupDiver() {
-        System.setProperty("webdriver.chrome.driver", "/Users/saidur/projects/libs/drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver","src/test/resources/chromedriver");
         driver = new ChromeDriver();
         driver.get("https://translate.google.com/");
     }
 
     @AfterClass
     public static void teardownDriver() {
-
-        //CommonHelper.quitDriver();
         driver.quit();
     }
 
